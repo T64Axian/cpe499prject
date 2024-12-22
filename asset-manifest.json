@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/T64Axian/cpe499prject/static/css/main.9ee09bcf.css",
+    "main.js": "/T64Axian/cpe499prject/static/js/main.c143c3d3.js",
+    "static/js/488.480d9742.chunk.js": "/T64Axian/cpe499prject/static/js/488.480d9742.chunk.js",
+    "index.html": "/T64Axian/cpe499prject/index.html",
+    "main.9ee09bcf.css.map": "/T64Axian/cpe499prject/static/css/main.9ee09bcf.css.map",
+    "main.c143c3d3.js.map": "/T64Axian/cpe499prject/static/js/main.c143c3d3.js.map",
+    "488.480d9742.chunk.js.map": "/T64Axian/cpe499prject/static/js/488.480d9742.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee09bcf.css",
+    "static/js/main.c143c3d3.js"
+  ]
+}
