@@ -1,0 +1,64 @@
+/* กำหนดรูปแบบพื้นฐานของ body */
+body {
+    font-family: 'Arial', sans-serif; /* ใช้ฟอนต์ Arial */
+    margin: 0; /* กำหนด margin เป็น 0 เพื่อไม่ให้มีระยะห่างรอบๆ */
+    padding: 0; /* กำหนด padding เป็น 0 */
+    background: linear-gradient(to bottom, #fff1f1, #80a7fd); /* ใช้พื้นหลังเป็นกราเดียนต์จากสีชมพูอ่อนไปสีน้ำเงิน */
+    display: flex; /* ใช้ Flexbox เพื่อจัดตำแหน่ง */
+    justify-content: center; /* จัดตำแหน่งเนื้อหาให้กึ่งกลางแนวนอน */
+    align-items: center; /* จัดตำแหน่งเนื้อหาให้กึ่งกลางแนวตั้ง */
+    min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เต็มความสูงของหน้าจอ */
+}
+
+/* การออกแบบปุ่ม */
+button {
+    background-color: #2e7d32; /* กำหนดสีพื้นหลังของปุ่ม */
+    color: white; /* กำหนดสีตัวอักษรเป็นสีขาว */
+    padding: 10px 20px; /* กำหนด padding ภายในปุ่ม */
+    border: none; /* ไม่มีขอบของปุ่ม */
+    border-radius: 5px; /* มุมปุ่มโค้ง */
+    cursor: pointer; /* แสดงสัญลักษณ์มือเมื่อวางเมาส์ */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงสีพื้นหลังเมื่อมีการโต้ตอบ */
+}
+
+/* รูปแบบการออกแบบ select และ input */
+select, input {
+    padding: 10px; /* กำหนด padding ภายใน */
+    font-size: 1rem; /* กำหนดขนาดฟอนต์ */
+    border-radius: 5px; /* มุมโค้ง */
+    margin: 10px; /* กำหนดระยะห่าง */
+    border: 1px solid #ddd; /* กำหนดเส้นขอบสีเทาอ่อน */
+}
+
+/* การออกแบบรายการใน ul */
+ul {
+    list-style: none; /* ลบจุดที่แสดงรายการ */
+    padding: 0; /* ลบการ padding */
+    margin-top: 20px; /* เพิ่มระยะห่างด้านบน */
+}
+
+/* การออกแบบแต่ละรายการใน ul */
+ul li {
+    background-color: #fff; /* พื้นหลังสีขาว */
+    border-radius: 10px; /* มุมโค้ง */
+    margin: 5px 0; /* กำหนดระยะห่างระหว่างรายการ */
+    padding: 10px; /* กำหนด padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาของกล่อง */
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-between; /* จัดตำแหน่งเนื้อหาทั้งสองฝั่ง */
+    align-items: center; /* จัดตำแหน่งให้ตรงกลางแนวตั้ง */
+}
+
+/* การออกแบบปุ่มในรายการของ ul */
+ul li button {
+    background-color: #f54b4b; /* สีพื้นหลังของปุ่มในรายการ */
+    padding: 5px 10px; /* กำหนด padding ของปุ่ม */
+    font-size: 0.8rem; /* ขนาดฟอนต์ */
+    border-radius: 5px; /* มุมโค้งของปุ่ม */
+    cursor: pointer; /* แสดงสัญลักษณ์มือเมื่อวางเมาส์ */
+}
+
+/* การเปลี่ยนสีของปุ่มในรายการเมื่อ hover */
+ul li button:hover {
+    background-color: #d32f2f; /* เปลี่ยนสีพื้นหลังของปุ่มเมื่อ hover */
+}
